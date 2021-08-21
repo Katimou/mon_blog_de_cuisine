@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css" >
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<meta charset="UTF-8";name="viewport" ;content="width=device-width, initial-scale=1">                   
+</head>
+<body>
+  <form>
+  <input class="imput2"  type="search" id="site" name="Recherche"
+       aria-label="Search through site content" placeholder="Recherche sur le blog...">
+
+<button>Recherche</button>
+</form>
+
+
+	<header>
+<div class="lien">
+		<a class="active" href="blog.html"><i class="fa fa-home" aria-hidden="true"></i>accueil</a>
+        <a href="chronogramme.html"><i class="fa fa-calendar-times-o" aria-hidden="true"></i>chronogramme de publication</a>
+        <a href="mon premier essaie.html"><i class="fa fa-cutlery" aria-hidden="true"></i>les mets publiés</a>
+		<a href="recette.html"><i class="fa fa-list-ul" aria-hidden="true"></i> les recettes associées</a>
+		<a href="formulaire.html"><i class="fa fa-heart" aria-hidden="true"></i>mon met préféré</a>
+		<a href="chat.html"><i class="fa fa-heart" aria-hidden="true"></i>chat</a>
+  
+		
+</div>
+	</header>
+<div class="slideshow-container">
+<div class="mySlides fade">
+
+  <img src="https://www.intermarche.be/sites/default/files/styles/recipe_850/public/recipe/26603//2018_s23_brochettes_de_legumes_colores.jpg?itok=cUSFpBsg"                               style="width:100%">
+ 
+</div>
+<div class="mySlides fade">
+  <img src="https://previews.123rf.com/images/gbh007/gbh0071609/gbh007160900639/63532037-grillades-et-l%C3%A9gumes-avec-des-frites.jpg"style="width:100%">
+  
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="https://img.wattpad.com/2acb06f185ddbe2ac71c5f61260d5fe4cbb90c7f/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f4a614e4f4342754d43556f4e44773d3d2d3634353732383735372e3135363238643836316665376235313031313830383439383234302e6a7067?s=fit&w=720&h=720" style="width:100%">
+  
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+</body>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html> 
+
+
